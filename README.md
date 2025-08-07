@@ -1,2 +1,28 @@
-# LLM_assisted_NSAI
-This repository contains Jupyter notebooks for (1) matching geochemical dataset labels with domain knowledge, and (2) integrating symbolic knowledge into machine learning models for mineral deposit classification. Includes data preprocessing, rule encoding, feature engineering, and SHAP-based model interpretation.
+# Neuro-Symbolic AI for Mineral Deposit Classification
+
+This repository contains the code used in the paper **"Enhancing Neuro-Symbolic AI for Mineral Prediction via LLM-Guided Knowledge Integration"**.  
+It demonstrates how to integrate domain-specific symbolic knowledge, extracted from geological literature using Large Language Models (LLMs), into machine learning workflows to improve interpretability and predictive performance.
+
+---
+
+## 📂 Contents
+
+### 1. `LLM_Knowledge_match.ipynb`
+- Extracts domain knowledge from ore deposit textbooks using LLMs.
+- Matches geochemical dataset labels with the extracted knowledge.
+- Generates symbolic rules encoded as binary features.
+
+### 2. `LLM_Nsai.ipynb`
+- Implements the Neuro-Symbolic AI (NSAI) model.
+- Combines raw geochemical features with symbolic knowledge-based features.
+- Trains and evaluates baseline ML and NSAI models.
+- Uses SHAP and SHAP interaction plots for interpretability.
+
+---
+
+## 🛠 Requirements
+
+Install the dependencies before running the notebooks:
+
+```bash
+pip install -r requirements.txt
