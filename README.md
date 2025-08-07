@@ -26,3 +26,48 @@ Install the dependencies before running the notebooks:
 
 ```bash
 pip install -r requirements.txt
+Key dependencies:
+
+Python 3.9+
+
+Jupyter Notebook
+
+pandas, numpy, scikit-learn
+
+shap
+
+openai (for LLM-based knowledge extraction)
+
+Usage
+Knowledge Matching
+
+Open and run LLM_Knowledge_match.ipynb.
+
+Provide access to your geological text data.
+
+The notebook outputs matched features and symbolic rule encodings.
+
+Neuro-Symbolic AI Modeling
+
+Open and run LLM_Nsai.ipynb.
+
+Load your geochemical dataset and symbolic features.
+
+Train baseline ML and NSAI models.
+
+Visualize model interpretability using SHAP.
+
+Outputs
+Matched Knowledge Files: Mappings between dataset labels and textbook-derived knowledge.
+
+Model Performance Metrics: Accuracy, precision, recall, F1-score.
+
+SHAP Interaction Plots: Feature interaction importance for baseline and NSAI models.
+
+Citation
+If you use this code, please cite:
+
+Chen, W., Leveraging Neuro-Symbolic AI for Enhanced Mineral Prediction in Diverse Copper Deposits. [Conference/Journal], 2025.
+
+License
+This repository is licensed under the MIT License. See the LICENSE file for details.
