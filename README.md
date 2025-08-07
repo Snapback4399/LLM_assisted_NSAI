@@ -24,8 +24,6 @@ It demonstrates how to integrate domain-specific symbolic knowledge, extracted f
 
 Install the dependencies before running the notebooks:
 
-```bash
-pip install -r requirements.txt
 Key dependencies:
 
 Python 3.9+
