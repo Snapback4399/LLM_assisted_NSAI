@@ -24,7 +24,7 @@ It demonstrates how to integrate domain-specific symbolic knowledge, extracted f
 
 ---
 
-## 📌 Supplementary Implementation
+## Supplementary Implementation
 
 ### 3. `LLM_Nsai_sup.ipynb`
 
@@ -41,7 +41,7 @@ This supplementary implementation is recommended for users interested in:
 ---
 
 
-## 🛠 Requirements
+## Requirements
 
 Install the dependencies before running the notebooks:
 
