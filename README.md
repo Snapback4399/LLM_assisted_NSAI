@@ -34,8 +34,8 @@ This notebook provides an alternative NSAI implementation with a stricter experi
 - Model evaluation focuses on isolating the contribution of symbolic knowledge under constrained information settings.
 
 This supplementary implementation is recommended for users interested in:
-- Leakage-aware experimental design
-- Realistic model deployment settings
+- Rigorous experimental design under label-independent settings
+- Realistic model deployment scenarios
 - Robust comparison between geochemistry-only and knowledge-enhanced models
 
 ---
