@@ -22,6 +22,7 @@ It demonstrates how to integrate domain-specific symbolic knowledge, extracted f
 > In this implementation, symbolic knowledge representations are constructed with access to deposit-model information prior to model training.  
 > This setup is intended to evaluate the *upper-bound contribution* of domain knowledge under idealized conditions, rather than to represent a fully label-independent deployment pipeline.
 > For readers interested in a label-independent implementation under realistic prediction settings, an alternative supplementary pipeline is available at: https://github.com/Snapback4399/LLM_assisted_NSAI_sup/
+> Thanks to Dr. Jeffrey M. Dick of Central South University, China for spotting this as a data leakage issue and contacting us immediately two weeks after the original article was published online. 
 ---
 
 
